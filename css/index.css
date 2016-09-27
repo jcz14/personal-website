@@ -1,6 +1,4 @@
-nav {
-  list-style: none;
+body, html {
+  background-color: #A0FFA0;
 }
 
-nav ul li {
-  display: inline;
