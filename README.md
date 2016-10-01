@@ -1,2 +1,2 @@
-This is my personal website. Currently hosted on my own server [here](http://172.11.172.16/~jim/WmGXQ5YvdzSYCG8l/).
+This is my personal website. A live version can be found [here](http://jcz95.dynu.com/~jim/WmGXQ5YvdzSYCG8l/).
 
