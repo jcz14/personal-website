@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <title>Personal Website</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/contact.css">
   </head>
   <body>
     <header>
-      <nav>
+      <nav id="navigation">
         <a href="index.html">Home</a>
         <a href="education.html">Education</a>
         <a href="work.html">Work</a>
@@ -15,7 +16,26 @@
       </nav>
     </header>
 
-    <p>Nothing to see here...</p>
+    <h2 id="completionMessage">Thanks! I'll get back to you as soon as possible!</h2>
+
+    <form action="" method="POST" onsubmit="return validate(this);" id="form">
+      <fieldset id="messageForm">
+        <div class="text">
+          <label for="name">Name: </label>
+          <input type="text" name="name" />
+        </div>
+        <div class="text">
+          <label for="email">Email: </label>
+          <input type="text" name="email" />
+        </div>
+        <div class="textarea">
+          <textarea id="message" cols="40" rows="20"></textarea>
+        </div>
+      </fieldset>
+      <input type="submit" id="submit" value="Send">
+    </form>
+
+    <script src="./js/contact.js"></script>
+    <noscript>Please enable JavaScript to use this form.</noscript>
   </body>
 </html>
-
