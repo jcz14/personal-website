@@ -21,6 +21,7 @@ function validate(form) {
 
   // if all fields have been filled out replace the form with a success message
   if(valid) {
+    document.getElementById("welcomeMessage").style.display="none";
     document.getElementById("form").style.display="none";
     document.getElementById("completionMessage").style.display="block";
   }
