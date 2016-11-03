@@ -9,9 +9,9 @@
     <header>
       <nav id="navigation">
         Home
-        <a href="education.html">Education</a>
-        <a href="work.html">Work</a>
-        <a href="contact.html">Contact</a>
+        <a href="education.php">Education</a>
+        <a href="work.php">Work</a>
+        <a href="contact.php">Contact</a>
       </nav>
       <hr />
     </header>

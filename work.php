@@ -8,10 +8,10 @@
   <body>
     <header>
       <nav id="navigation">
-        <a href="index.html">Home</a>
-        <a href="education.html">Education</a>
+        <a href="index.php">Home</a>
+        <a href="education.php">Education</a>
         Work
-        <a href="contact.html">Contact</a>
+        <a href="contact.php">Contact</a>
       </nav>
       <hr />
     </header>
