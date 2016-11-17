@@ -5,20 +5,13 @@
     <title>Personal Website</title>
     <link rel="stylesheet" href="./css/main.css">
   </head>
-  <body>
-    <header>
-      <nav id="navigation">
-        Home
-        <a href="education.php">Education</a>
-        <a href="work.php">Work</a>
-        <a href="contact.php">Contact</a>
-      </nav>
-      <hr />
-    </header>
 
-    <center>
-      <img src="./img/me.jpg" alt="Picture of me" width="200px" />
-    </center>
+  <body>
+    <?php include "header.php"; ?>
+
+    <div class="centered">
+      <img src="img/me.jpg" alt="Picture of me" width="200px" />
+    </div>
 
     <h1>Hi there!</h1>
     <p>I'm Jim, a fourth-year bioinformatics major at the <a href="http://pitt.edu/">University of Pittsburgh</a>. Though this website's primary
@@ -49,9 +42,6 @@
     immediately after I get my bachelor's degree while working a part-time job. After I earn my master's I will likely continue working, wherever that may be. My ultimate
     goal is to secure a position at the National Human Genome Research Institute of the <a href="https://www.nih.gov/">National Institutes of Health</a>.</p>
 
-    <footer>
-      <hr />
-      Jim Zheng 2016. Source code available on <a href="https://github.com/jcz14/personal-website">GitHub</a>.
-    </footer>
+    <?php include "footer.php"; ?>
   </body>
 </html>

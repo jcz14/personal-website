@@ -5,20 +5,16 @@
     <title>Personal Website</title>
     <link rel="stylesheet" href="./css/main.css">
   </head>
+
   <body>
-    <header>
-      <nav id="navigation">
-        <a href="index.php">Home</a>
-        Education
-        <a href="work.php">Work</a>
-        <a href="contact.php">Contact</a>
-      </nav>
-      <hr />
-    </header>
+    <?php include "header.php"; ?>
 
     <p>
-      <center><img src="./img/pitt.png" width="100px" alt="University of Pittsburgh logo" /></center>
-      <center>2013 - 2017: University of Pittsburgh</center>
+      <div class="centered">
+        <img src="img/pitt.png" width="100px" alt="University of Pittsburgh logo" />
+        <br />
+        2013 - 2017: University of Pittsburgh
+      </div>
       <ul>
         <li>Bioinformatics major (<a href="http://cs.pitt.edu/undergrads/bsbimajorreq">core courses here</a>)</li>
         <li>Other courses include...</li>
@@ -35,8 +31,11 @@
     <hr />
 
     <p>
-      <center><img src="./img/dshs.png" width="100px" alt="Davis Senior High School logo" /></center>
-      <center>2009 - 2013: Davis Senior High School</center>
+      <div class="centered">
+        <img src="img/dshs.png" width="100px" alt="Davis Senior High School logo" />
+        <br />
+        2009 - 2013: Davis Senior High School
+      </div>
       <ul>
         <li>A general all-around education with a focus on science and mathematics</li>
         <li>Several college-level <a href="https://apstudent.collegeboard.org/home">Advanced Placement</a> courses</li>
@@ -54,9 +53,6 @@
       </ul>
     </p>
 
-    <footer>
-      <hr />
-      Jim Zheng 2016. Source code available on <a href="https://github.com/jcz14/personal-website">GitHub</a>.
-    </footer>
+    <?php include "footer.php"; ?>
   </body>
 </html>
