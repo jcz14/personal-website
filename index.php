@@ -17,9 +17,7 @@
     <p>I'm Jim, a fourth-year bioinformatics major at the <a href="http://pitt.edu/">University of Pittsburgh</a>. Though this website's primary
     purpose is for a class project, if you take a look around you'll see that it's eventually going to become something that I use to sell myself to potential
     employers. Currently contained on this website are some facts about me (what you're looking at right now!), my education and work experience, and a
-    realistic-looking but non-working contact form. That's because this website currently uses nothing but hand-written HTML, CSS, and JavaScript, without any
-    server-side scripts or database systems. By the end of this term, however, that form will be fully functional and the entire website will look a lot different
-    than what you see now.</p>
+    realistic-looking but non-working contact form.</p>
 
     <h1>About Me</h1>
     <p>Airplanes make thousands of miles seem like nothing. Though I go to school in Pennsylvania, California is the place I call home, where I go to be with
