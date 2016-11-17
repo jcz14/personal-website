@@ -5,16 +5,9 @@
     <title>Personal Website</title>
     <link rel="stylesheet" href="./css/main.css">
   </head>
+
   <body>
-    <header>
-      <nav id="navigation">
-        <a href="index.php">Home</a>
-        <a href="education.php">Education</a>
-        Work
-        <a href="contact.php">Contact</a>
-      </nav>
-      <hr />
-    </header>
+    <?php include "header.php"; ?>
 
     <h1>2015-2016</h1>
     <p>In my third year of university I was offered a paid full-time position as a data analyst for a paper on the application and proposal of improvements
@@ -28,9 +21,6 @@
     live animal tissue and blood samples. I learned the basics of contemporary lab techniques such as ELISA, SDS-PAGE, buffer preparation, and ion-channel
     protein separation. I also worked on the data acquisition and storage routines of an in-house program developed by the members of the research lab.</p>
 
-    <footer>
-      <hr />
-      Jim Zheng 2016. Source code available on <a href="https://github.com/jcz14/personal-website">GitHub</a>.
-    </footer>
+    <?php include "footer.php"; ?>
   </body>
 </html>

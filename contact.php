@@ -6,16 +6,9 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/contact.css">
   </head>
+
   <body>
-    <header>
-      <nav id="navigation">
-        <a href="index.php">Home</a>
-        <a href="education.php">Education</a>
-        <a href="work.php">Work</a>
-        Contact
-      </nav>
-      <hr />
-    </header>
+    <?php include "header.php"; ?>
 
     <h2 id="welcomeMessage">Write me a message!</h2>
     <h2 id="completionMessage">Thanks! I'll get back to you as soon as possible!</h2>
@@ -37,10 +30,7 @@
       <input type="submit" id="submit" value="Send">
     </form>
 
-    <footer>
-      <hr />
-      Jim Zheng 2016. Source code available on <a href="https://github.com/jcz14/personal-website">GitHub</a>.
-    </footer>
+    <?php include "footer.php"; ?>
 
     <script src="./js/contact.js"></script>
     <noscript>Please enable JavaScript to use this form.</noscript>
