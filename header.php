@@ -5,5 +5,4 @@
     <a href="work.php">Work</a>
     <a href="contact.php">Contact</a>
   </nav>
-  <hr />
 </header>
