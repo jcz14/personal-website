@@ -11,7 +11,7 @@
 
     <p>
       <div class="centered">
-        <img src="img/pitt.png" width="100px" alt="University of Pittsburgh logo" />
+        <img src="img/education-pitt.png" width="100px" alt="University of Pittsburgh logo" />
         <br />
         2013 - 2017: University of Pittsburgh
       </div>
@@ -32,7 +32,7 @@
 
     <p>
       <div class="centered">
-        <img src="img/dshs.png" width="100px" alt="Davis Senior High School logo" />
+        <img src="img/education-dshs.png" width="100px" alt="Davis Senior High School logo" />
         <br />
         2009 - 2013: Davis Senior High School
       </div>

@@ -10,7 +10,7 @@
     <?php include "header.php"; ?>
 
     <div class="centered">
-      <img src="img/me.jpg" alt="Picture of me" width="200px" />
+      <img src="img/index-me.jpg" alt="Picture of me" width="200px" />
     </div>
 
     <h1>Hi there!</h1>
