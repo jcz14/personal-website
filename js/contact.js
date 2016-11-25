@@ -1,7 +1,4 @@
 function validate(form) {
-  // prevent form from clearing after submit button is clicked
-  event.preventDefault();
-  
   // keep track of form validity
   var valid=true;
   
