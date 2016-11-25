@@ -1,6 +1,6 @@
 <?php
-  // Since JavaScript is used for form validation we can guarantee that the name field not being blank means the form was filled out correctly
-  if ($_POST["name"] != "") {
+  // Check to make sure that the required fields aren't blank
+  if ($_POST["name"] != "" && $_POST["email"] != "" && $_POST["message"] != "") {
     // Connect to MySQL database
     $server = "localhost";
     $user = "root";
@@ -32,7 +32,7 @@
     $form_message = str_replace("'", "''", $form_message);
 
     // Insert new row into table
-    $mysql_insert = "INSERT INTO messages VALUES ('". $form_name . "','". $form_email . "','". $form_subject . "','". $form_message . "')";
+    $mysql_insert = "INSERT INTO messages (name,email,subject,content) VALUES ('". $form_name . "','". $form_email . "','". $form_subject . "','". $form_message . "')";
 
     // Display message on insertion success or failure
     if ($mysql_connection->query($mysql_insert) === TRUE) {
