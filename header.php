@@ -5,4 +5,6 @@
     <a href="work.php">Work</a>
     <a href="contact.php">Contact</a>
   </nav>
+  <br>
+  <br>
 </header>
