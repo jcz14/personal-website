@@ -10,7 +10,7 @@
 
     // Display error if the connection fails
     if ($mysql_connection->connect_error) {
-      die("There was a problem connecting to the database.");
+      die("<br><br>There was a problem connecting to the database.");
     }
 
     // Store form responses in variables
@@ -36,7 +36,7 @@
 
     // Display message on insertion success or failure
     if ($mysql_connection->query($mysql_insert) === TRUE) {
-      echo "Thanks! Your message has been submitted, and I will get back to you as soon as I can.";
+      echo "<br><br>Thanks! Your message has been submitted, and I will get back to you as soon as I can.";
     } else {
       echo "MySQL error: " . $mysql_insert . "<br>" . $mysql_connection->error;
     }
