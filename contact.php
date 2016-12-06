@@ -58,20 +58,18 @@
     <h2 id="welcomeMessage">Write me a message!</h2>
 
     <form action="" method="POST" onsubmit="return validate(this);" id="form">
-      <fieldset id="messageForm">
-        <div class="text">
-          <input type="text" id="name" name="name" placeholder="Name"/>
-        </div>
-        <div class="text">
-          <input type="email" id="email" name="email" placeholder="E-Mail"/>
-        </div>
-        <div class="text">
-          <input type="text" id="text" name="subject" placeholder="Subject (optional)"/>
-        </div>
-        <div class="textarea">
-          <textarea id="message" name="message" cols="40" rows="10" placeholder="Message"></textarea>
-        </div>
-      </fieldset>
+      <div class="text">
+        <input type="text" id="name" name="name" placeholder="Name"/>
+      </div>
+      <div class="text">
+        <input type="email" id="email" name="email" placeholder="E-Mail"/>
+      </div>
+      <div class="text">
+        <input type="text" id="text" name="subject" placeholder="Subject (optional)"/>
+      </div>
+      <div class="textarea">
+        <textarea id="message" name="message" cols="40" rows="10" placeholder="Message"></textarea>
+      </div>
       <input type="submit" id="submit" value="Send">
     </form>
 
