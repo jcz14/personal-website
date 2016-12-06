@@ -55,7 +55,7 @@
   <body>
     <?php include "header.php"; ?>
 
-    <h2 id="welcomeMessage">Write me a message!</h2>
+    <h1 id="welcomeMessage">Write me a message!</h1>
 
     <form action="" method="POST" onsubmit="return validate(this);" id="form">
       <div class="text">
