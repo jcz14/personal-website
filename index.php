@@ -15,7 +15,7 @@
     </div>
 
     <h1>Hi there!</h1>
-    <p>I'm Jim, a fourth-year bioinformatics major at the <a href="http://pitt.edu/">University of Pittsburgh</a>. This is my personal website, take a look around and
+    <p>I'm Jim, a fourth-year bioinformatics major at the <a href="http://pitt.edu/" target="_blank">University of Pittsburgh</a>. This is my personal website, take a look around and
     enjoy yourself~!</p>
 
     <h1>About Me</h1>

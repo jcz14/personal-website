@@ -11,7 +11,7 @@
     <?php include "header.php"; ?>
 
     <h1>Current Work</h1>
-    <p>I'm currently working on <a href="http://drugquery.csb.pitt.edu/disco/">DISCO</a>, a service that provides results which can be used as a benchmark
+    <p>I'm currently working on <a href="http://drugquery.csb.pitt.edu/disco/" target="_blank">DISCO</a>, a service that provides results which can be used as a benchmark
     in predicting the feasibility of protein-ligand docking interactions. The front-end uses PHP and the calculations are done with custom-made Python
     scripts. The goal of this project is to create a tool which will be used by researchers and analysts in their work as an way to evaluate the results of
     algorithms that predict protein-ligand interactions in addition to directly predicting protein-ligand interactions.</p>

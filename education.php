@@ -17,7 +17,7 @@
         2013 - 2017: University of Pittsburgh
       </div>
       <ul>
-        <li>Bioinformatics major (<a href="http://cs.pitt.edu/undergrads/bsbimajorreq">core courses here</a>)</li>
+        <li>Bioinformatics major (<a href="http://cs.pitt.edu/undergrads/bsbimajorreq" target="_blank">core courses here</a>)</li>
         <li>Other courses include...</li>
         <ul>
           <li>Introduction to Psychology</li>
@@ -39,7 +39,7 @@
       </div>
       <ul>
         <li>A general all-around education with a focus on science and mathematics</li>
-        <li>Several college-level <a href="https://apstudent.collegeboard.org/home">Advanced Placement</a> courses</li>
+        <li>Several college-level <a href="https://apstudent.collegeboard.org/home" target="_blank">Advanced Placement</a> courses</li>
         <ul>
           <li>Calculus AB</li>
           <li>Statistics</li>
