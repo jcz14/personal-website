@@ -57,6 +57,8 @@
 
     <h1 id="welcomeMessage">Write me a message!</h1>
 
+    <p>Got any questions or comments? Fill out the form below and I'll get back to you as soon as I can.</p>
+
     <form action="" method="POST" onsubmit="return validate(this);" id="form">
       <div class="text">
         <input type="text" id="name" name="name" placeholder="Name"/>
