@@ -75,6 +75,8 @@
       <input type="submit" id="submit" value="Send">
     </form>
 
+    <p><img src="./img/facebook.png" alt="Facebook icon"> You can also message me on <a href="https://www.facebook.com/jimzheng95" target="_blank">Facebook</a>.</img></p>
+
     <?php include "footer.php"; ?>
 
     <script src="./js/contact.js"></script>
